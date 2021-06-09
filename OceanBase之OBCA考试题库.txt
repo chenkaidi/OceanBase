@@ -137,7 +137,7 @@ D：OBServer
 
 
 判断：
-1.	一个租户在同一个 Server 上可以有一个或多个资源单元 UNIT   	正确
+1.一个租户在同一个 Server 上可以有一个或多个资源单元 UNIT   	正确
 2.创建资源单元仅仅指定  CPU、MEMORY 参数即可，无需指定 OPS、DISK_SIZE、SESSION_NUM参数  错误
 3.OCEANBASE 在少数副本不可用的情况下，可以实现 RPO=0,RTO<30 秒    正确
 4.Zone 可以对应不同的城市，或者一个城市的不同机房、或者一个机房的不同机架，以实现不同级别的容灾   正确
